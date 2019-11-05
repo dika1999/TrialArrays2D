@@ -1,0 +1,11 @@
+public static void main(String[] args) {
+        String[][]keluarga={{"Ayah","Toneri"},{"Ibu","Orochimaru"},{"Anak","Mitsuki"},
+                                {"Peliharaan","Ular"}};
+            for (int x=0;x<keluarga.length;x++){
+                System.out.println("***********************");
+                System.out.println("Status  : " + keluarga[x][0]);
+                System.out.println("Nama    : " + keluarga[x][1]);
+            }
+    }
+    
+}
